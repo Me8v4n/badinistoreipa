@@ -100,23 +100,53 @@
             border: none;
         }
 
+        /* Sileo Button Style */
         .btn-sileo {
-            background: linear-gradient(135deg, #007aff 0%, #005ec4 100%);
+            background: linear-gradient(135deg, #1c1c1e 0%, #2c2c2e 100%);
             color: #ffffff;
-            box-shadow: 0 8px 20px rgba(0, 122, 255, 0.3);
+            border: 1px solid rgba(0, 122, 255, 0.3);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
         }
 
         .btn-sileo:hover {
-            box-shadow: 0 10px 25px rgba(0, 122, 255, 0.5);
+            background: linear-gradient(135deg, #2c2c2e 0%, #3a3a3c 100%);
+            border-color: rgba(0, 122, 255, 0.6);
             transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(0, 122, 255, 0.25);
         }
 
         .btn-sileo:active {
             transform: scale(0.97);
         }
 
+        /* Cydia Button Style */
+        .btn-cydia {
+            background: linear-gradient(135deg, #1c1c1e 0%, #2c2c2e 100%);
+            color: #ffffff;
+            border: 1px solid rgba(255, 149, 0, 0.3);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .btn-cydia:hover {
+            background: linear-gradient(135deg, #2c2c2e 0%, #3a3a3c 100%);
+            border-color: rgba(255, 149, 0, 0.6);
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(255, 149, 0, 0.25);
+        }
+
+        .btn-cydia:active {
+            transform: scale(0.97);
+        }
+
+        .repo-icon {
+            width: 24px;
+            height: 24px;
+            object-fit: contain;
+            border-radius: 6px;
+        }
+
         .social-box {
-            margin-top: 25px;
+            margin-top: 15px;
         }
 
         .btn-telegram {
@@ -158,16 +188,34 @@
             <img src="https://foloiq.rf.gd/icon.png" alt="Badini Store Logo">
         </div>
         
-        <h1>Badini Store</h1>
-        <p>باشترین تویک و کڕکێن جیلبریکێ ل ڤێرە ب دەستخوە بخە. سۆرسێ ب کلیکەکێ زێدە بکە بو Sileo.</p>
+        <h1>Badini Store IPA</h1>
+        <p>سورسەکێ کوردی ، درستکرن و ئامادەکرنا تویکا ل سەر ئایفونی بو sileo و cydia</p>
 
         <div class="btn-group">
             <a href="sileo://source/https://me8v4n.github.io/badinistoreipa/" class="btn btn-sileo">
-                زێدەکرن بۆ Sileo
+                <img src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Icon_Sileo.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled" alt="Sileo" class="repo-icon">
+‎                زێدەکرن بۆ Sileo
+            </a>
+
+            <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://me8v4n.github.io/badinistoreipa/" class="btn btn-cydia">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/8b/Cydia_logo.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" alt="Cydia" class="repo-icon">
+‎                زێدەکرن بۆ Cydia
             </a>
         </div>
 
         <div class="social-box">
             <a href="https://t.me/badinistoreIPA" target="_blank" class="btn btn-telegram">
                 <svg viewBox="0 0 24 24">
-                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69.01-.03.01-.14-.07-.2-.08-.06-.19-.04-.27-.02-.12.03-1.99 1.27-5.62 3.72-.53.36-1.01.54
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69.01-.03.01-.14-.07-.2-.08-.06-.19-.04-.27-.02-.12.03-1.99 1.27-5.62 3.72-.53.36-1.01.54-1.42.53-.29-.01-.94-.18-1.4-.33-.56-.18-1.01-.28-.97-.59.02-.16.24-.32.66-.49 2.59-1.12 4.31-1.85 5.16-2.2 2.45-1.02 2.96-1.2 3.29-1.2.07 0 .24.02.35.11.09.08.12.19.13.27 0 .06.01.24 0 .37z"/>
+                </svg>
+‎                کەنالێ تێلێگرامی
+            </a>
+        </div>
+
+        <div class="footer">
+             2026 Badini Store
+        </div>
+    </div>
+
+</body>
+</html>
