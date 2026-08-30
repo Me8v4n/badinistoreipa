@@ -7,11 +7,11 @@ Author: bahoz zaxoy
 Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: debs/com.mehvan.badinistore_1.0.0-10+debug_iphoneos-arm64.deb
-Icon: debs/icon.png
 Size: 2718824
 MD5sum: 25e78f89169f265fd57e1d56b2d8e563
 SHA1: a09a52ca8681ec952c816f827d42a2c539e2dc2d
 SHA256: e04b1dff0eefcf05c8d60a442796896b0faa49854a925d0981e80a247bed4cb8
+Icon: debs/icon.png
 Depiction: https://me8v4n.github.io/badinistoreipa/depictions/com.mehvan.badinistore.html
 
 Package: com.rpgfarm.a-font
