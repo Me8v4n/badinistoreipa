@@ -1,0 +1,45 @@
+Package: com.mehvan.badinistore
+Name: Badini Store Tweak
+Version: 1.0.0-10+debug
+Architecture: iphoneos-arm64
+Maintainer: bahoz zaxoy
+Author: bahoz zaxoy
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.mehvan.badinistore_1.0.0-10+debug_iphoneos-arm64.deb
+Size: 2718824
+MD5sum: 25e78f89169f265fd57e1d56b2d8e563
+SHA1: a09a52ca8681ec952c816f827d42a2c539e2dc2d
+SHA256: e04b1dff0eefcf05c8d60a442796896b0faa49854a925d0981e80a247bed4cb8
+Icon: debs/icon.png
+Depiction: https://me8v4n.github.io/badinistoreipa/depictions/com.mehvan.badinistore.html
+
+Package: com.rpgfarm.a-font
+Name: A-Font
+Version: 1.10.1
+Architecture: iphoneos-arm64
+Maintainer: bahoz zaxoy
+Author: bahoz zaxoy
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/com.rpgfarm.a-font_1.10.1_iphoneos-arm64.deb
+Size: 1245000
+MD5sum: d41d8cd98f00b204e9800998ecf8427e
+SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Description: A custom font changer for iOS.
+
+Package: com.badinitech.badinibypass
+Name: Badini Bypass
+Version: 1.0.0-9+debug
+Architecture: iphoneos-arm64
+Maintainer: bahoz zaxoy
+Author: bahoz zaxoy
+Section: Security
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.badinitech.badinibypass_1.0.0-9+debug_iphoneos-arm64.deb
+Size: 1540000
+MD5sum: d41d8cd98f00b204e9800998ecf8427e
+SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Description: A bypass tweak for security and jailbreak detection.
