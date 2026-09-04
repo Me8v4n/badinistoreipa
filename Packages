@@ -19,7 +19,7 @@ Name: A-Font
 Version: 1.10.1
 Architecture: iphoneos-arm64
 Maintainer: bahoz~zaxoy
-Author: bahoz zaxoy
+Author: bahoz~zaxoy
 Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
 Filename: debs/com.rpgfarm.a-font.deb
@@ -27,7 +27,7 @@ Size: 1245000
 MD5sum: 6e55bee3746e959278b77bdc608b3f999ca7b686
 SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
 SHA256: d22d9f8f1bcca3dbeb35c0a832d9b8fd64a80ca1469005e81a810ff5b879a58a
-Description: بو گوهارتنا فونتێ ئایفونێ
+Description:  ios15-18 بو گوهارتنا فونتێ ئایفونێ
 
 Package: com.badinitech.badinibypass
 Name: Badini Bypass
